@@ -1,0 +1,59 @@
+@font-face {
+    font-family: prototype;
+    src: url(../font/prototype.ttf);
+}
+
+.fondoimg{
+background-image: url("../img/cocina.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+h1{
+font-family: prototype;
+}
+
+.transparente{
+background-color: rgba(200, 207, 119, 0.6)
+}
+
+.navegacion-principal{
+list-style:none;
+color:orange;
+}
+
+.comida1{
+display:flex;
+height:100px;
+width:150px
+}
+
+.historial{
+display:flex-wrap;
+list-style:none;
+font-family: prototype;
+}
+
+.receta1{
+max-height: 2000px;
+width: 600px;
+}
+
+boton{
+margin-bottom:20px;
+padding-bottom:20px;
+}
+
+.user{
+height:50px;
+}
+
+.fondo-de-texto{
+background-color: rgb(252, 207, 100)
+}
+
+.busqueda{
+padding-top:20px;
+}
